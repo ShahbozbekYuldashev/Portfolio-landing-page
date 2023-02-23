@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metas -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Logovski" />
+    <!-- Links -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+    <link href="css/slick.css" rel="stylesheet" />
+    <link href="css/animate.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <!-- Document Title -->
+    <title>Bondi Portfolio</title>
+  </head>
+  <body data-spy="scroll" data-offset="120"> 
+    <!-- Loading Icon While Page Loads -->
+    <div class="spinner-overlay flex-center">
+      <div class="spinner-grow flex-center" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>      
+    </div>
+   <!-- Start of header -->
+    <header id="home">
+      <nav class="navbar bg-white navbar-expand-lg fixed-top padding-25-15">
+        <div class="container">
+          <a class="navbar-brand" href="#home">
+            <!-- logo brand image -->
+            <img src="images/logo.svg" alt="">
+          </a>
+          <!-- Mobile Burger Button  -->
+          <div class="mobile-menu right none">
+            <div class="burger pointer relative">
+              <span class=""></span>
+            </div>
+          </div>
+          <!-- Desktop Navigation -->
+          <div class="navbar-collapse collapse desktop-navbar">
+            <ul class="navbar-nav ml-auto nav-pills">
+              <!-- Navigation link -->
+              <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+              </li>
+              <!-- Navigation link -->
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Services</a>
+              </li>
+              <!-- Navigation link -->
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <!-- Navigation link -->
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li> 
+              <!-- Navigation link -->
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonials">Testimonials</a>
+              </li>                
+              <!-- Navigation link -->
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <!-- Navigation link -->
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>    
+              <!-- Navigation link -->
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>   
+              <!-- Dropdown link -->
+              <li class="dropdown">
+                <button class="dropdown-btn-style weight500 dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Bonus
+                </button>
+                <div class="dropdown-menu animated flipInX bg-white light-shadow">
+                  <a class="dropdown-item color-primary weight500" href="../Bonus-Pages/blog-single.html">Single Blog</a>
+                  <a class="dropdown-item color-primary weight500" href="../Bonus-Pages/portfolio-single.html">Single Portfolio</a>
+                  <a class="dropdown-item color-primary weight500" href="../Bonus-Pages/coming-soon.html">Coming Soon</a>
+                  <a class="dropdown-item color-primary weight500" href="../Bonus-Pages/coming-soon-v2.html">Coming Soon v.2</a>
+                  <a class="dropdown-item color-primary weight500" href="../Bonus-Pages/404.html">404 v.1</a>
+                  <a class="dropdown-item color-primary weight500" href="../Bonus-Pages/404v2.html">404 v.2</a>
+                  <a class="dropdown-item color-primary weight500" href="../App-Landing-Page-1/index.html">App Showcase #1</a>
+                  <a class="dropdown-item color-primary weight500" href="../App-Landing-Page-2/index.html">App Showcase #2</a>
+                  <a class="dropdown-item color-primary weight500" href="../App-Landing-Page-3/index.html">App Showcase #3</a>
+                  <a class="dropdown-item color-primary weight500" href="../Portfolio-Landing-Page-1/index.html">Portfolio #1</a>
+                  <a class="dropdown-item color-primary weight500" href="../Portfolio-Landing-Page-2/index.html">Portfolio #2</a>
+                  <a class="dropdown-item color-primary weight500" href="../Portfolio-Multipage/index.html">Portfolio #3</a>
+                </div>
+              </li>       
+            </ul>
+          </div>
+          <!-- Mobile Navigation -->
+          <div class="navbar-collapse sidenav bg-white light-shadow">
+            <ul class="navbar-nav ml-auto nav-pills">
+              <!-- Navigation link -->
+              <li class="nav-item">
+                <a class="nav-link font-size-20" href="#home">Home</a>
+              </li>
+              <!-- Navigation link -->
+              <li class="nav-item">
+                <a class="nav-link font-size-20" href="#features">Services</a>
+              </li>
+              <!-- Navigation link -->
+              <li class="nav-item">
+                <a class="nav-link font-size-20" href="#about">About</a>
+              </li>
+              <!-- Navigation link -->
+              <li class="nav-item">
+                <a class="nav-link font-size-20" href="#portfolio">Portfolio</a>
+              </li>  
+              <!-- Navigation link -->
+              <li class="nav-item">
+                <a class="nav-link font-size-20" href="#testimonials">Testimonials</a>
+              </li>  
+              <!-- Navigation link -->
+              <li class="nav-item">
+                <a class="nav-link font-size-20" href="#pricing">Pricing</a>
+              </li>
+              <!-- Navigation link -->
+              <li class="nav-item">
+                <a class="nav-link font-size-20" href="#blog">Blog</a>
+              </li>  
+              <!-- Navigation link -->
+              <li class="nav-item">
+                <a class="nav-link font-size-20" href="#contact">Contact</a>
+              </li> 
+              <!-- Dropdown link -->
+              <li class="dropdown">
+                <button class="dropdown-btn-style dropdown-mobile-style weight500 dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Bonus
+                </button>
+                <div class="dropdown-menu dropdown-mobile animated flipInX bg-white">
+                  <a class="dropdown-item color-primary weight500 font-size-20" href="../Bonus-Pages/blog-single.html">Single Blog</a>
+                  <a class="dropdown-item color-primary weight500 font-size-20" href="../Bonus-Pages/portfolio-single.html">Single Portfolio</a>
+                  <a class="dropdown-item color-primary weight500 font-size-20" href="../Bonus-Pages/coming-soon.html">Coming Soon</a>
+                  <a class="dropdown-item color-primary weight500 font-size-20" href="../Bonus-Pages/coming-soon-v2.html">Coming Soon v.2</a>
+                  <a class="dropdown-item color-primary weight500 font-size-20" href="../Bonus-Pages/404.html">404 v.1</a>
+                  <a class="dropdown-item color-primary weight500 font-size-20" href="../Bonus-Pages/404v2.html">404 v.2</a>
+                  <a class="dropdown-item color-primary weight500 font-size-20" href="../App-Landing-Page-1/index.html">App Showcase #1</a>
+                  <a class="dropdown-item color-primary weight500 font-size-20" href="../App-Landing-Page-2/index.html">App Showcase #2</a>
+                  <a class="dropdown-item color-primary weight500 font-size-20" href="../App-Landing-Page-3/index.html">App Showcase #3</a>
+                  <a class="dropdown-item color-primary weight500 font-size-20" href="../Portfolio-Landing-Page-1/index.html">Portfolio #1</a>
+                  <a class="dropdown-item color-primary weight500 font-size-20" href="../Portfolio-Landing-Page-2/index.html">Portfolio #2</a>
+                  <a class="dropdown-item color-primary weight500 font-size-20" href="../Portfolio-Multipage/index.html">Portfolio #3</a>
+                </div>
+              </li>                          
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- header hero -->
+      <div class="hero bg-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="hero-title wow fadeInLeft">
+                <!-- header hero title -->
+                <h1>Hi There!<br>I Am Creative<br>Designer.</h1>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <div class="hero-buttons">
+                  <!-- Button -->
+                  <div class="button-style-color hero-button left">
+                    <a href="#contact" class="weight500">Contact Me</a>
+                  </div>
+                  <!-- Button -->
+                  <div class="button-style-color hero-button left button-no-bg">
+                    <a href="#portfolio" class="weight500">My Works</a>
+                  </div>                
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <!-- header hero images -->
+              <div class="portfolio-hero center relative">
+                <img class="wow fadeInRightBig" data-wow-delay="0.3s" src="images/hero/hero-layer1.svg" alt="">
+                <img class="wow fadeInRightBig" data-wow-delay="0.6s" src="images/hero/hero-layer2.svg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+   <!-- Start of Features  -->
+    <section id="features" class="features bg-white">
+      <div class="container">
+        <div class="row">
+          <!-- Feature Title  -->
+          <div class="col-12 features-title text-center wow fadeIn">
+            <h5 class="font-size-20">Services</h5>
+            <h4>Standout From The Crowd</h4>
+          </div>
+        </div>
+        <div class="row">
+          <!-- First Feature  -->
+          <div class="col-12 col-md-4">
+            <div class="feature-box text-center wow fadeInLeft" data-wow-delay="0.3s">
+              <h5>Pixel Perfect</h5>
+              <div class="feature-icon flex-center relative center">
+                <div class="feature-img-box light-shadow bg-white flex-center">
+                  <img src="images/services/service-icon1.svg" alt="">
+                </div>
+                <img src="images/grid-dots.svg" alt="">
+              </div>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+            </div>
+          </div>
+          <!-- Second Feature  -->
+          <div class="col-12 col-md-4">
+            <div class="feature-box text-center wow fadeIn" data-wow-delay="0.6s">
+              <h5>Modern & Clean</h5>
+              <div class="feature-icon flex-center relative center">
+                <div class="feature-img-box light-shadow bg-white flex-center">
+                  <img src="images/services/service-icon2.svg" alt="">
+                </div>
+                <img src="images/grid-dots.svg" alt="">
+              </div>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+            </div>
+          </div>
+          <!-- Third Feature  -->
+          <div class="col-12 col-md-4">
+            <div class="feature-box text-center wow fadeInRight" data-wow-delay="0.3s">
+              <h5>Easy To Edit</h5>
+              <div class="feature-icon flex-center relative center">
+                <div class="feature-img-box light-shadow bg-white flex-center">
+                  <img src="images/services/service-icon3.svg" alt="">
+                </div>
+                <img src="images/grid-dots.svg" alt="">
+              </div>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start of About Us  -->
+    <section id="about" class="about bg-primary-dark">
+      <div class="container">
+        <div class="row"> 
+          <div class="col-12 col-lg-6">
+            <div class="about-info wow fadeInLeft">
+              <!-- About us info -->
+              <h5 class="font-size-20 color-white">About Us</h5>
+              <h4 class="color-white">Who I Am?</h4>
+              <p class="margin-30-0 color-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse</p>
+              <div class="stats-container">
+                <!-- Stats Box -->
+                <div class="stats-box left">
+                  <p class="weight500 color-white">46</p>
+                  <p class="weight500 color-white">Clients</p>
+                </div>
+                <!-- Stats Box -->
+                <div class="stats-box left">
+                  <p class="weight500 color-white">131</p>
+                  <p class="weight500 color-white">Projects</p>
+                </div>
+                <!-- Stats Box -->
+                <div class="stats-box left">
+                  <p class="weight500 color-white">1374</p>
+                  <p class="weight500 color-white">Mails</p>
+                </div>
+              </div>
+              <!-- Button -->
+              <div class="button-style-color margin-30-0 about-btn">
+                <a href="#blog" class="weight600">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="about-image relative">
+              <!-- About image -->
+              <img class="wow fadeInRightBig" data-wow-delay="0.7s" src="images/about/about-image1.svg" alt="">
+              <img class="wow fadeInRightBig" data-wow-delay="1.1s" src="images/about/about-image2.svg" alt="">
+              <img class="wow fadeInRightBig" data-wow-delay="1.5s" src="images/about/about-image3.svg" alt="">
+              <img class="wow fadeInRightBig" data-wow-delay="1.9s" src="images/about/about-image4.svg" alt="">
+            </div>
+          </div> 
+        </div>
+      </div>
+    </section>
+
+    <!-- Start of Portfolio  -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 portfolio-header">
+            <h4>Latest Projects</h4>
+            <p>Duis aute irure dolor in reprehen deritin voluptate esse cillum.</p>
+          </div>  
+        </div>
+        <div class="portfolio-gallery relative">
+          <!-- portfolio image box -->
+          <div class="col-12 col-md-4 margin-40-0">
+            <div class="portfolio-box light-shadow relative">
+              <!-- portfolio image --> 
+              <img src="images/portfolio/work6.png" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-info-title left">
+                  <!-- portfolio Link --> 
+                  <a class="weight500" href="#">Awesome App</a>
+                </div>
+                <div class="portfolio-info-tag right">
+                  <!-- portfolio Tag --> 
+                  <p class="color-grey">Design + Code</p>
+                </div>
+              </div>
+            </div>
+          </div>  
+          <!-- portfolio image box -->
+          <div class="col-12 col-md-4 margin-40-0">
+            <div class="portfolio-box light-shadow relative">
+              <!-- portfolio image --> 
+              <img src="images/portfolio/work1.png" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-info-title left">
+                  <!-- portfolio Link --> 
+                  <a class="weight500" href="#">Landing Page</a>
+                </div>
+                <div class="portfolio-info-tag right">
+                  <!-- portfolio Tag --> 
+                  <p class="color-grey">Design</p>
+                </div>
+              </div>
+            </div>
+          </div>          
+          <!-- portfolio image box -->
+          <div class="col-12 col-md-4 margin-40-0">
+            <div class="portfolio-box light-shadow relative">
+              <!-- portfolio image --> 
+              <img src="images/portfolio/work2.png" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-info-title left">
+                  <!-- portfolio Link --> 
+                  <a class="weight500" href="#">Android App</a>
+                </div>
+                <div class="portfolio-info-tag right">
+                  <!-- portfolio Tag --> 
+                  <p class="color-grey">Code</p>
+                </div>
+              </div>
+            </div>
+          </div>    
+          <!-- PORTFOLIO SECOND ROW -->
+          <!-- portfolio image box -->
+          <div class="col-12 col-md-4 margin-40-0">
+            <div class="portfolio-box light-shadow relative">
+              <!-- portfolio image --> 
+              <img src="images/portfolio/work3.png" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-info-title left">
+                  <!-- portfolio Link --> 
+                  <a class="weight500" href="#">Website Ui & Ux</a>
+                </div>
+                <div class="portfolio-info-tag right">
+                  <!-- portfolio Tag --> 
+                  <p class="color-grey">Design</p>
+                </div>
+              </div>
+            </div>
+          </div>  
+          <!-- portfolio image box -->
+          <div class="col-12 col-md-4 margin-40-0">
+            <div class="portfolio-box light-shadow relative">
+              <!-- portfolio image --> 
+              <img src="images/portfolio/work4.png" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-info-title left">
+                  <!-- portfolio Link --> 
+                  <a class="weight500" href="#">Android App</a>
+                </div>
+                <div class="portfolio-info-tag right">
+                  <!-- portfolio Tag --> 
+                  <p class="color-grey">Design + Code</p>
+                </div>
+              </div>
+            </div>
+          </div>          
+          <!-- portfolio image box -->
+          <div class="col-12 col-md-4 margin-40-0">
+            <div class="portfolio-box light-shadow relative">
+              <!-- portfolio image --> 
+              <img src="images/portfolio/work5.png" alt="">
+              <div class="portfolio-info">
+                <div class="portfolio-info-title left">
+                  <!-- portfolio Link --> 
+                  <a class="weight500" href="#">Landing Page</a>
+                </div>
+                <div class="portfolio-info-tag right">
+                  <!-- portfolio Tag --> 
+                  <p class="color-grey">Design</p>
+                </div>
+              </div>
+            </div>
+          </div>   
+        </div>
+      </div>
+    </section>
+
+    <!-- Start of Advertising  -->
+    <section class="advertisings bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 advertise-box-style">
+            <div class="wow fadeInLeft" data-wow-delay="0.4s">
+              <!-- advertising info -->
+              <div class="advertising-row">
+                <!-- Advertising service box -->
+                <div class="advertising-icon-box left">
+                  <img src="images/services/service-icon1.svg" alt="">
+                  <h5>Pixel Perfect</h5>
+                  <p>Duis aute irure dolor in reprehen deritin voluptate esse cillum.</p>
+                </div>
+                <!-- Advertising service box -->
+                <div class="advertising-icon-box left">
+                  <img src="images/services/service-icon2.svg" alt="">
+                  <h5>Modern & Clean</h5>
+                  <p>Duis aute irure dolor in reprehen deritin voluptate esse cillum.</p>
+                </div>                  
+              </div>
+              <div class="advertising-row">
+                <!-- Advertising service box -->
+                <div class="advertising-icon-box left">
+                  <img src="images/services/service-icon3.svg" alt="">
+                  <h5>Easy To Edit</h5>
+                  <p>Duis aute irure dolor in reprehen deritin voluptate esse cillum.</p>
+                </div>
+                <!-- Advertising service box -->
+                <div class="advertising-icon-box left">
+                  <img src="images/services/service-icon4.svg" alt="">
+                  <h5>Organised Files</h5>
+                  <p>Duis aute irure dolor in reprehen deritin voluptate esse cillum.</p>
+                </div>                  
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+           <!-- Advertising image -->
+            <div class="advertising-tablet relative center text-center">
+              <img class="wow fadeInRightBig" src="images/advertisings/tablet-layer1.svg" alt="">
+              <div class="tablet-screenshot wow fadeInRightBig" data-wow-delay="0.4s">
+                <img src="images/advertisings/add2.png" alt="">
+              </div>
+              <img class="wow fadeInRightBig" data-wow-delay="0.8s" src="images/advertisings/tablet-layer2.svg" alt="">
+            </div>
+          </div>  
+        </div>
+      </div>
+    </section>
+
+    <!-- Start of Testimonials  -->
+    <section id="testimonials" class="testimonials bg-primary-dark">
+      <div class="container">
+        <div class="row">
+          <!-- testimonials Title  -->
+          <div class="col-12 features-title testimonial-title text-center wow fadeInDown">
+            <h5 class="font-size-20 color-white">Testimonials</h5>
+            <h4 class="color-white">What They Say About Us</h4>
+          </div>
+        </div>
+        <div class="testimonials-slider pointer">
+          <!-- testimonials Box  -->
+          <div class="col-12 testimonials-box">
+            <div class="testimonial-avatar left flex-center">
+              <div class="avatar-image shadow">
+                <!-- testimonials Avatar  -->
+                <img src="images/testimonials/avatar1.png" alt="">
+              </div>
+              <img src="images/testimonials/testimonials-bg.svg" alt="">
+            </div>
+            <div class="testimonial-info left">
+              <!-- testimonials Quote  -->
+              <p class="margin-0 color-white">"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse."</p>
+              <div class="testimonials-stars showcase-stars">
+                <img src="images/star.svg" alt="">
+                <img src="images/star.svg" alt="">
+                <img src="images/star.svg" alt="">
+                <img src="images/star.svg" alt="">
+                <img src="images/star.svg" alt="">
+              </div>
+              <!-- testimonials Author  -->
+              <p class="weight500 margin-0 clear-both color-white">John Doe</p>
+            </div>
+          </div>
+          <!-- testimonials Box  -->
+          <div class="col-12 testimonials-box">
+            <div class="testimonial-avatar left flex-center">
+              <div class="avatar-image shadow">
+                <!-- testimonials Avatar  -->
+                <img src="images/testimonials/avatar2.png" alt="">
+              </div>
+              <img src="images/testimonials/testimonials-bg.svg" alt="">
+            </div>
+            <div class="testimonial-info left">
+              <!-- testimonials Quote  -->
+              <p class="margin-0 color-white">"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+              <div class="testimonials-stars showcase-stars">
+                <img src="images/star.svg" alt="">
+                <img src="images/star.svg" alt="">
+                <img src="images/star.svg" alt="">
+                <img src="images/star.svg" alt="">
+                <img src="images/star.svg" alt="">
+              </div>
+              <!-- testimonials Author  -->
+              <p class="weight500 margin-0 clear-both color-white">Lorem Ipsum</p>
+            </div>
+          </div>
+          <!-- testimonials Box  -->
+          <div class="col-12 testimonials-box">
+            <div class="testimonial-avatar left flex-center">
+              <div class="avatar-image shadow">
+                <!-- testimonials Avatar  -->
+                <img src="images/testimonials/avatar3.png" alt="">
+              </div>
+              <img src="images/testimonials/testimonials-bg.svg" alt="">
+            </div>
+            <div class="testimonial-info left">
+              <!-- testimonials Quote  -->
+              <p class="margin-0 color-white">"Ullamcorper sit amet risus nullam eget. Duis tristique sollicitudin nibh sit amet. Placerat orci nulla pellentesque dignissim enim sit."</p>
+              <div class="testimonials-stars showcase-stars">
+                <img src="images/star.svg" alt="">
+                <img src="images/star.svg" alt="">
+                <img src="images/star.svg" alt="">
+                <img src="images/star.svg" alt="">
+                <img src="images/star.svg" alt="">
+              </div>
+              <!-- testimonials Author  -->
+              <p class="weight500 margin-0 clear-both color-white">Luke Skywalker</p>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </section>
+
+  <!-- Start of Pricings  -->
+    <section id="pricing" class="bg-white pricing">
+      <div class="container">
+        <div class="row">
+          <!-- Feature Title  -->
+          <div class="col-12 features-title blog-title text-center wow fadeInDown">
+            <h5 class="font-size-20">Pricing</h5>
+            <h4>Ours Pricing Comparison</h4>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Pricing Box  -->
+          <div class="col-12 col-md-4">
+            <div class="pricing-box text-center bg-white light-shadow wow fadeInLeftBig">
+              <div class="pricing-head relative">
+                <div class="pricing-border bg-color-pink"></div>
+                <!-- Pricing Feature  -->
+                <p class="weight500 font-size-20 color-primary-dark">Feature</p>
+                <!-- Pricing Price  -->
+                <p class="weight600 color-primary-dark">$59.99</p>
+                <p class="color-primary-dark">Yearly</p>
+              </div>
+              <div class="pricing-body">
+                <ul>
+                  <!-- Pricing Features  -->
+                  <li class="weight500 color-primary-dark">Feature 01</li>
+                  <li class="weight500 color-primary-dark">Awesome Feature</li>
+                  <li class="weight500 color-primary-dark">02 Feature</li>
+                  <li class="weight500 color-primary-dark">Feature</li>
+                </ul>
+                <!-- Button -->
+                <div class="button-style-color margin-20-0 pricing-button">
+                  <a href="#" class="weight500">Buy Feature</a>
+                </div>
+                <a class="weight500" href="#">Free Trial</a>
+              </div>
+            </div>
+          </div>
+          <!-- Pricing Box  -->
+          <div class="col-12 col-md-4">
+            <div class="pricing-box text-center bg-white light-shadow wow fadeIn" data-wow-delay="0.5s">
+              <div class="pricing-head relative">
+                <div class="pricing-border bg-color-yellow"></div>
+                <!-- Pricing Feature  -->
+                <p class="weight500 font-size-20 color-primary-dark">Feature</p>
+                <!-- Pricing Price  -->
+                <p class="weight600 color-primary-dark">$29.99</p>
+                <p class="color-primary-dark">Monthly</p>
+              </div>
+              <div class="pricing-body">
+                <ul>
+                  <!-- Pricing Features  -->
+                  <li class="weight500 color-primary-dark">Feature 01</li>
+                  <li class="weight500 color-primary-dark">Awesome Feature</li>
+                  <li class="weight500 color-primary-dark">02 Feature</li>
+                  <li class="weight500 color-primary-dark">Feature</li>
+                </ul>
+                <!-- Button -->
+                <div class="button-style-color margin-20-0 pricing-button">
+                  <a href="#" class="weight500">Buy Feature</a>
+                </div>
+                <a class="weight500" href="#">Free Trial</a>
+              </div>
+            </div>
+          </div>
+          <!-- Pricing Box  -->
+          <div class="col-12 col-md-4">
+            <div class="pricing-box text-center bg-white light-shadow wow fadeInRightBig">
+              <div class="pricing-head relative">
+                <div class="pricing-border bg-color-green"></div>
+                <!-- Pricing Feature  -->
+                <p class="weight500 font-size-20 color-primary-dark">Feature</p>
+                <!-- Pricing Price  -->
+                <p class="weight600 color-primary-dark">$19.99</p>
+                <p class="color-primary-dark">Yearly</p>
+              </div>
+              <div class="pricing-body">
+                <ul>
+                  <!-- Pricing Features  -->
+                  <li class="weight500 color-primary-dark">Feature 01</li>
+                  <li class="weight500 color-primary-dark">Awesome Feature</li>
+                  <li class="weight500 color-primary-dark">02 Feature</li>
+                  <li class="weight500 color-primary-dark">Feature</li>
+                </ul>
+                <!-- Button -->
+                <div class="button-style-color margin-20-0 pricing-button">
+                  <a href="#" class="weight500">Buy Feature</a>
+                </div>
+                <a class="weight500" href="#">Free Trial</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start of Blog  -->
+    <section id="blog" class="features bg-light-color">
+      <div class="container">
+        <div class="row">
+          <!-- Feature Title  -->
+          <div class="col-12 features-title blog-title text-center wow fadeInDown">
+            <h5 class="font-size-20">Blog</h5>
+            <h4>Some News From Us</h4>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Blog Box  -->
+          <div class="col-12 col-lg-4 blog-box-style wow fadeInLeftBig">
+            <a href="#">
+              <div class="blog-box animate light-shadow relative">
+                <div class="blog-author">
+                  <div class="blog-avatar left">
+                    <!-- Author Avatar Image  -->
+                    <img src="images/blog/avatar1.png" alt="">
+                  </div>
+                  <div class="blog-author-info left">
+                    <!-- Author Name  -->
+                    <p class="font-size-20 weight500">John Doe</p>
+                    <!-- Post Date  -->
+                    <p class="weight400">12 Dec 2019</p>
+                  </div>
+                </div>
+                <div class="blog-text">
+                  <!-- Post Title  -->
+                  <h5 class="weight500 font-size-20 margin-5-0">Show your blog article</h5>
+                  <!-- Post Description  -->
+                  <p class="weight400">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo...</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Blog Box  -->
+          <div class="col-12 col-lg-4 blog-box-style wow fadeIn" data-wow-delay="0.4s">
+            <a href="#">
+              <div class="blog-box animate light-shadow relative">
+                <div class="blog-author">
+                  <div class="blog-avatar left">
+                    <!-- Author Avatar Image  -->
+                    <img src="images/blog/avatar2.png" alt="">
+                  </div>
+                  <div class="blog-author-info left">
+                    <!-- Author Name  -->
+                    <p class="font-size-20 weight500">John Doe</p>
+                    <!-- Post Date  -->
+                    <p class="weight400">12 Dec 2019</p>
+                  </div>
+                </div>
+                <div class="blog-text">
+                  <!-- Post Title  -->
+                  <h5 class="weight500 font-size-20 margin-5-0">Show your blog article</h5>
+                  <!-- Post Description  -->
+                  <p class="weight400">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo...</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- Blog Box  -->
+          <div class="col-12 col-lg-4 blog-box-style wow fadeInRightBig">
+            <a href="#">
+              <div class="blog-box animate light-shadow relative">
+                <div class="blog-author">
+                  <div class="blog-avatar left">
+                    <!-- Author Avatar Image  -->
+                    <img src="images/blog/avatar3.png" alt="">
+                  </div>
+                  <div class="blog-author-info left">
+                    <!-- Author Name  -->
+                    <p class="font-size-20 weight500">John Doe</p>
+                    <!-- Post Date  -->
+                    <p class="weight400">12 Dec 2019</p>
+                  </div>
+                </div>
+                <div class="blog-text">
+                  <!-- Post Title  -->
+                  <h5 class="weight500 font-size-20 margin-5-0">Show your blog article</h5>
+                  <!-- Post Description  -->
+                  <p class="weight400">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo...</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start of Advertising  -->
+    <section class="advertisings advertisings-style-3 bg-primary-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="advertising2-image relative">
+              <div class="advertising-box advertising-box1 bg-white text-center wow fadeInLeftBig" data-wow-delay="0.4s">
+                <!-- Advertising image  -->
+                <img src="images/advertisings/add1.png" alt="">
+              </div>
+              <!-- Advertising stats  -->
+              <div class="advertising-box advertising-box2 bg-secondary-color text-center wow fadeInLeftBig" data-wow-delay="0.7s">
+                <p class="color-white weight500">12</p>
+                <p class="color-white weight500">Apps</p>
+              </div>
+              <!-- Advertising stats  -->
+              <div class="advertising-box advertising-box2 advertising-box3 bg-color-yellow text-center wow fadeInLeftBig" data-wow-delay="1s">
+                <p class="color-white weight500">16</p>
+                <p class="color-white weight500">Employees</p>
+              </div>
+              <!-- Advertising stats  -->
+              <div class="advertising-box advertising-box4 bg-color-pink text-center wow fadeInLeftBig" data-wow-delay="1.3s">
+                <p class="color-white weight500">1M +</p>
+                <p class="color-white weight500">Downloads</p>
+              </div>
+            </div>
+          </div>  
+          <!-- Advertising info  -->
+          <div class="col-12 col-lg-6 advertising2-info wow fadeInRight margin-40-0" data-wow-delay="0.4s">
+            <h2 class="color-white">Creative Mind</h2>
+            <div class="margin-20-0">
+              <p class="color-white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>         
+            </div>
+            <!-- Button -->
+            <div class="button-style-color white-text-btn margin-30-0">
+              <a href="#contact" class="weight600">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start of Newsletter  -->
+    <section class="bg-white newsletter">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 margin-20-0 newsletter-info wow fadeInLeftBig">
+            <h5 class="font-size-20">Newsletter</h5>
+            <h4>Subscribe to Our<br>Weakly Blog.</h4>
+            <div class="input-style margin-20-0 relative">
+              <input class="left color-primary weight500" type="text" placeholder="Enter Your Email Address">
+              <!-- Button -->
+              <div class="button-style-color left margin-15-0 newsletter-button">
+                <a href="#" class="weight500">Subscribe</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="newsletter-image">
+              <img class="wow fadeInRightBig" data-wow-delay="0.4s" src="images/newsletter/newsletter-image1.svg" alt="">
+              <img class="wow fadeInRightBig" data-wow-delay="0.8s" src="images/newsletter/newsletter-image2.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start of Contact  -->
+    <section id="contact" class="bg-primary-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-3">
+            <div class="contact-info wow fadeInLeft" data-wow-delay="1.5s">
+              <!-- Contact info -->
+              <h5 class="font-size-20 color-white">Contact Us</h5>
+              <h4 class="color-white">Don't be shy to contact us for anything.</h4>
+              <p class="weight500 color-white">+00-1234-567</p>
+              <p class="weight500 color-white">somemail@mail.com</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="contact-bg-image relative">
+              <!-- Contact Illustration -->
+              <img class="wow fadeInLeft" src="images/contact/contact-image1.svg" alt="">
+              <img class="wow fadeInLeft" data-wow-delay="0.4s" src="images/contact/contact-image2.svg" alt="">
+              <img class="wow fadeInLeft" data-wow-delay="1s" src="images/contact/contact-image3.svg" alt="">
+              <img class="wow fadeInLeft" data-wow-delay="1.2s" src="images/contact/contact-image4.svg" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <form id="contact-form" method="post" action="mailer.php" class="contact-form wow fadeInLeft">
+              <!-- Contact input email -->
+              <input type="email" placeholder="Email*" id="email" name="email" tabindex="1" required>
+              <!-- Contact input message -->
+              <textarea placeholder="Message*" rows="4" name="message" id="message" tabindex="2" required></textarea>
+              <!-- Button -->
+              <div class="button-style-color small-btn contact-button">
+                <button type="submit" class="weight500" onClick="sendContact();">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start of Footer  -->
+    <footer class="bg-primary-dark footer-basic-style wow fadeIn"> 
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-3 footer-collumn">
+            <p class="weight400 color-primary">Address</p>
+            <p class="left weight400 color-grey">Achavat</p>
+            <p class="left weight400 color-grey">Tashkent</p>
+          </div>
+          <div class="col-12 col-sm-3 footer-collumn">
+            <p class="weight400 color-primary">Phone</p>
+            <p class="left weight400 color-grey">+00-1234-567</p>
+          </div>
+          <div class="col-12 col-sm-3 footer-collumn">
+            <p class="weight400 color-primary">Features</p>
+            <a class="left weight400 color-grey" href="#">Pricing</a>
+          </div>
+          <div class="col-12 col-sm-3 footer-collumn footer-collumn-contact">
+            <p class="weight400 color-primary">Contact Us</p>
+            <p class="left weight400 color-grey">Feel Free to get in touch with us.</p>
+            <p class="left weight400 color-grey">somemail@mail.com</p>
+          </div>
+        </div>
+        <div class="row footer-top">
+          <div class="col-12 col-sm-3 footer-collumn">
+            <p class="weight400 color-primary">Services</p>
+            <a class="left weight400" href="#">Service</a>
+            <a class="left weight400" href="#">Pricing</a>
+          </div>
+          <div class="col-12 col-sm-3 footer-collumn">
+            <p class="weight400 color-primary">About Us</p>
+            <a class="left weight400" href="#">Company</a>
+            <a class="left weight400" href="#">Team</a>
+          </div>
+          <div class="col-12 col-sm-3 footer-collumn">
+            <p class="weight500 color-primary">Features</p>
+            <a class="left weight400" href="#">Homepage V1</a>
+            <a class="left weight400" href="#">Homepage V2</a>
+          </div>
+          <div class="col-12 col-sm-3 social">
+            <a class="weight400 color-primary" href="#"><span><i class="fab fa-facebook-f padding-top-15 font-size-20"></i></span></a>
+            <a class="weight400 color-primary" href="#"><span><i class="fab fa-twitter padding-top-15 font-size-20"></i></span></a>
+            <a class="weight400 color-primary" href="#"><span><i class="fab fa-dribbble padding-top-15 font-size-20"></i></span></a>
+          </div>
+        </div>        
+        <div class="row footer-bottom">
+          <div class="col-12 col-sm-6 footer-logo">
+            <a href="#home"><img src="images/white-logo.svg" alt=""></a>
+          </div>
+          <div class="col-12 col-sm-6 footer-copyright">
+            <p class="right weight400 color-grey">© 2023 - Bondi</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Scripts Ends -->
+  </body>
+</html>
